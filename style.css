@@ -95,24 +95,74 @@ main {
     border-radius: 10px;
     padding: 130px 160px;
     text-align: center;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
 }
+
 .about-title {
     font-size: 30px;
     margin-bottom: 10px;
 }
+
 .about-info {
     margin-top: 30px;
 }
+
 .about-info-title {
-    color:gray;
+    color: gray;
     margin-bottom: 5px;
 }
+
 .about-info-description {
     font-size: small;
     font-weight: 600;
 }
+
 .about-info-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+/* what section style  */
+.what {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.what-title {
+    color: rgb(43, 42, 42);
+    font-size: 30px;
+}
+
+.what-description {
+    font-size: 14px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 30px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.skill-title {
+    color: rgb(54, 49, 49);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skill-secribtion {
+    color: gray;
+    font-size: 16px;
+}
+
+.skill {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
