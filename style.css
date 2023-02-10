@@ -207,3 +207,27 @@ hr {
     color: grey;
     font-size: 14px ;
 }
+/* footer section styles */
+.footer-section {
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding:70px 100px;
+}
+.footer-title {
+    font-size: 30px;
+    text-align: left;
+}
+.footer-description {
+    font-size: 15px;
+    width:600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.icon-section a {
+    text-decoration: none;
+}
